@@ -1,0 +1,39 @@
+body{
+	width:33%;
+}
+.buttonContainer {
+	width: 148px;
+}
+
+.buttonContainer > .buttonClass {
+	width: 72px;
+	height: 48px;
+	font-size: 16px;
+}
+
+#btns1, #btns2 {
+	display:inline-block;
+}
+
+#btn1, #btn0  {
+	background-color:palegreen;
+	color:red;
+}
+
+#btnCtrl, #btnEql {
+	background-color:green;
+	color:white;
+}
+
+#btnSum, #btnSub, #btnMul, #btnDiv  {
+	background-color:black;
+	color:red;
+}
+
+#res {
+	background-color:lightgray;
+	border-color:black;
+	border:solid;
+	height:48px;
+	width:69%;
+}
